@@ -11,7 +11,7 @@ Calculate the lower and upper bounds on the most likelihood estimate obtained.
 2. Repeat the first part over multiple experiments and study the distribution of the maximum likelihood
 estimate. 
 <br/>
-## Structure and Contents
+<h2>Structure and Contents</h2>
 - `data_generator.py`: Provides a function `generate_data(n_meas, n_experiments)`
 which draws `n_meas x n_experiments` samples from an exponential distribution. The samples 
 are stored as a multidimensional list in `./outputs/raw_exponential.txt`. The rate
