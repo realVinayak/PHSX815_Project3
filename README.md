@@ -4,14 +4,14 @@ The goal of this project is to estimate the rate parameter of an exponential dis
 from a given set of measurements using maximum likelihood estimation from a single experiment.
 The lower and upper bounds on the maximum likelihood estimate of the rate parameter is also studied.
 An analysis of the effect of number of measurements on the error in parameter estimation is conducted.
-<br/>
+
 The project is composed of two parts:
 1. Calculating the most likelihood estimate for the rate parameter given a set of measurements making a single experiment.
 Calculate the lower and upper bounds on the most likelihood estimate obtained. 
 2. Repeat the first part over multiple experiments and study the distribution of the maximum likelihood
 estimate. 
-<br/>
-<h2>Structure and Contents</h2>
+
+## Structure and Contents
 - `data_generator.py`: Provides a function `generate_data(n_meas, n_experiments)`
 which draws `n_meas x n_experiments` samples from an exponential distribution. The samples 
 are stored as a multidimensional list in `./outputs/raw_exponential.txt`. The rate
