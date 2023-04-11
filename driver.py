@@ -2,8 +2,8 @@ from data_generator import generate_data
 from predict_rate_parameter import predict_rate_parameter
 from plot_pred_parameters import generate_plots
 
-N_meas = 60
-N_experiments = 50000
+N_meas = 8
+N_experiments = 1000
 rate_parameter = 1 / 2.6
 X_MIN = 0
 X_MAX = 8
